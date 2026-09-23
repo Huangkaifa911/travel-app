@@ -1,0 +1,14 @@
+node_modules/
+dist/
+stats.html
+
+.env
+.env.local
+.env.*.local
+!.env.example
+
+.vscode/
+.idea/
+.DS_Store
+*.log
+test-atlas.js

@@ -1,0 +1,20 @@
+.page-container {
+  min-height: 100vh;
+  background: #f7f8fa;
+  padding-bottom: 60px;
+}
+
+.main-content {
+  padding: 12px;
+}
+/* 防止字体加载导致布局偏移 */
+* {
+  font-display: swap !important; /* 先用系统字体占位，等字体加载完再替换 */
+}
+
+/* 给所有首屏容器固定最小高度（防止异步内容撑开） */
+.plan-card,
+.ai-card,
+.inspiration-card {
+  min-height: 200px; /* 根据你实际设计调整，防止加载时内容撑满 */
+}
