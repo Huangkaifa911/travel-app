@@ -1,6 +1,7 @@
 import express from 'express'
 import tripPlanService from '../services/tripPlanService.js'
 import { authMiddleware } from '../middlewares/auth.js'
+import { AppError } from '../utils/AppError.js'
 
 
 const router = express.Router()

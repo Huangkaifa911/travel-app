@@ -1,6 +1,6 @@
 import Conversation from '../models/Conversation.js'
 import Message from '../models/Message.js'
-import { AppError } from '../utils/appError.js'
+import { AppError } from '../utils/AppError.js'
 
 class ConversationService {
   // 创建新会话

@@ -1,5 +1,5 @@
 import TripPlan from '../models/TripPlan.js'
-import { AppError } from '../utils/appError.js'
+import { AppError } from '../utils/AppError.js'
 
 class TripPlanService {
   // 创建行程

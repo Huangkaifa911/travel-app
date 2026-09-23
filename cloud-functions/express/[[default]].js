@@ -7,7 +7,6 @@ import authRouter from '../../backend/src/routes/auth.js'
 import travelRouter from '../../backend/src/routes/travel.js'
 import conversationRouter from '../../backend/src/routes/conversation.js'
 import tripPlanRouter from '../../backend/src/routes/tripPlan.js'
-import { responseMiddleware } from '../../backend/src/middlewares/response.js'
 import { notFoundHandler, errorHandler } from '../../backend/src/middlewares/errorHandler.js'
 import connectDB from '../../backend/src/utils/mongoDB.js'
 
