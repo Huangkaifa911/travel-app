@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import { config } from '../config/index.js'
 
-const dbUrl = 'mongodb://127.0.0.1:27017/hkfData';
+const dbUrl = config.mongoUrl;
 
 const connectDB = async () => {
 try {
